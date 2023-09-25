@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc_components>
+    <pc_component>
+        <name>Nvidia gtx 1050ti</name>
+        <origin>China</origin>
+        <price>200</price>
+        <is_critical>false</is_critical>
+    </pc_component>
+    <pc_component>
+        <name>intel core i5-10500</name>
+        <origin>Indonesia</origin>
+        <price>320</price>
+        <is_critical>true</is_critical>
+    </pc_component>
+    <pc_component>
+        <name>steelseries arctis 1</name>
+        <origin>Sweden</origin>
+        <price>120</price>
+        <is_critical>false</is_critical>
+    </pc_component>
+    <pc_component>
+        <name>steelseries rival 3</name>
+        <origin>Sweden</origin>
+        <price>80</price>
+        <is_critical>false</is_critical>
+    </pc_component>
+    <pc_component>
+        <!-- Невалидный пример -->
+        <name>razer deathadder</name>
+        <origin>China</origin>
+        <price>-123</price>
+        <is_critical>123</is_critical>
+    </pc_component>
+</pc_components>

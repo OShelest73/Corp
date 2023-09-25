@@ -1,0 +1,5 @@
+PCComponent{Name='Nvidia gtx 1050ti', Origin='China', Price=200.0, Type=[], IsCritical=false}
+PCComponent{Name='intel core i5-10500', Origin='Indonesia', Price=320.0, Type=[], IsCritical=true}
+PCComponent{Name='steelseries arctis 1', Origin='Sweden', Price=120.0, Type=[], IsCritical=false}
+PCComponent{Name='steelseries rival 3', Origin='Sweden', Price=80.0, Type=[], IsCritical=false}
+PCComponent{Name='razer deathadder', Origin='China', Price=-123.0, Type=[], IsCritical=false}
