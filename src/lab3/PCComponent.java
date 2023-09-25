@@ -27,6 +27,16 @@ public class PCComponent {
             throw new InvalidComponentException("Invalid Price (must be more then 0)");
         }
     }
+
+    @Override
+    public String toString() {
+        return "PCComponent{" +
+                "Name='" + Name + '\'' +
+                ", Origin='" + Origin + '\'' +
+                ", Price=" + Price +
+                ", IsCritical=" + IsCritical +
+                '}';
+    }
 }
 
 

@@ -31,4 +31,10 @@
         <price>-123</price>
         <is_critical>123</is_critical>
     </pc_component>
+    <pc_component>
+        <name>steelseries rival 3</name>
+        <origin>Sweden</origin>
+        <price>90</price>
+        <is_critical>false</is_critical>
+    </pc_component>
 </pc_components>
