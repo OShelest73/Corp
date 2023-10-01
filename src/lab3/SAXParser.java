@@ -46,7 +46,6 @@ public class SAXParser {
                     component.setOrigin(value);
                 } else if ("price".equals(currentElement)) {
                     component.setPrice(Double.parseDouble(value));
-                    //TODO здесь сетить для типов
                 } else if ("is_critical".equals(currentElement)) {
                     component.setIsCritical(Boolean.parseBoolean(value));
                 }

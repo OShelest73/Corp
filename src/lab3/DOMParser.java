@@ -32,7 +32,7 @@ public class DOMParser {
                 component.setName(eElement.getElementsByTagName("name").item(0).getTextContent());
                 component.setOrigin(eElement.getElementsByTagName("origin").item(0).getTextContent());
                 component.setPrice(Double.parseDouble(eElement.getElementsByTagName("price").item(0).getTextContent()));
-                //TODO здесь сетить для типов
+
                 component.setIsCritical(Boolean.parseBoolean(eElement.getElementsByTagName("is_critical").item(0).getTextContent()));
 
                 computers.add(component);
